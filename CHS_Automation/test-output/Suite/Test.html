@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 23 10:15:51 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>361 seconds (361163 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.app.scripts.TC005_VerifySNFADM.verifsnfadm()'><b>verifsnfadm</b><br>Test class: com.app.scripts.TC005_VerifySNFADM</td>
+<td></td>
+<td>22</td>
+<td>com.app.scripts.TC005_VerifySNFADM@646d64ab</td></tr>
+<tr>
+<td title='com.app.scripts.TC012_VerifyPDLTDOC.verifsnfadm()'><b>verifsnfadm</b><br>Test class: com.app.scripts.TC012_VerifyPDLTDOC</td>
+<td></td>
+<td>20</td>
+<td>com.app.scripts.TC012_VerifyPDLTDOC@6ee52dcd</td></tr>
+<tr>
+<td title='com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox.verifyCurrentDateAndISNPCheckBox()'><b>verifyCurrentDateAndISNPCheckBox</b><br>Test class: com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox</td>
+<td></td>
+<td>9</td>
+<td>com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox@33f88ab</td></tr>
+<tr>
+<td title='com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb.verifyLabelAndBreadcrumbTest()'><b>verifyLabelAndBreadcrumbTest</b><br>Test class: com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb</td>
+<td></td>
+<td>13</td>
+<td>com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb@27a8c74e</td></tr>
+<tr>
+<td title='com.app.scripts.TC008_VerifyACHslashADM.verifyachslashadm()'><b>verifyachslashadm</b><br>Test class: com.app.scripts.TC008_VerifyACHslashADM</td>
+<td></td>
+<td>21</td>
+<td>com.app.scripts.TC008_VerifyACHslashADM@e320068</td></tr>
+<tr>
+<td title='com.app.scripts.TC011_VerifyADMslash1000.verifyadmslash1000()'><b>verifyadmslash1000</b><br>Test class: com.app.scripts.TC011_VerifyADMslash1000</td>
+<td></td>
+<td>21</td>
+<td>com.app.scripts.TC011_VerifyADMslash1000@704a52ec</td></tr>
+<tr>
+<td title='com.app.scripts.TC007_VerifyEDslashED.verifyedslashed()'><b>verifyedslashed</b><br>Test class: com.app.scripts.TC007_VerifyEDslashED</td>
+<td></td>
+<td>19</td>
+<td>com.app.scripts.TC007_VerifyEDslashED@536aaa8d</td></tr>
+<tr>
+<td title='com.app.scripts.TC009_VerifyHslash1000.verifyhslash1000()'><b>verifyhslash1000</b><br>Test class: com.app.scripts.TC009_VerifyHslash1000</td>
+<td></td>
+<td>21</td>
+<td>com.app.scripts.TC009_VerifyHslash1000@1f57539</td></tr>
+<tr>
+<td title='com.app.scripts.TC010_VerifyEDslash1000.verifyhslash1000()'><b>verifyhslash1000</b><br>Test class: com.app.scripts.TC010_VerifyEDslash1000</td>
+<td></td>
+<td>21</td>
+<td>com.app.scripts.TC010_VerifyEDslash1000@76f2b07d</td></tr>
+<tr>
+<td title='com.app.scripts.TC003_VerifyPatientCount.verifypatientcount()'><b>verifypatientcount</b><br>Test class: com.app.scripts.TC003_VerifyPatientCount</td>
+<td></td>
+<td>21</td>
+<td>com.app.scripts.TC003_VerifyPatientCount@2d8f65a4</td></tr>
+<tr>
+<td title='com.app.scripts.TC004_VerifyDaysofCare.verifypatientcount()'><b>verifypatientcount</b><br>Test class: com.app.scripts.TC004_VerifyDaysofCare</td>
+<td></td>
+<td>21</td>
+<td>com.app.scripts.TC004_VerifyDaysofCare@1b68ddbd</td></tr>
+<tr>
+<td title='com.app.scripts.TC006_VerifyRTH.verifyrth()'><b>verifyrth</b><br>Test class: com.app.scripts.TC006_VerifyRTH</td>
+<td></td>
+<td>21</td>
+<td>com.app.scripts.TC006_VerifyRTH@59e5ddf</td></tr>
+</table><p>
+</body>
+</html>

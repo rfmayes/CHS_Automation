@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32030" started-at="2020-10-27T07:54:07 PDT" finished-at="2020-10-27T07:54:39 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32030" started-at="2020-10-27T07:54:07 PDT" finished-at="2020-10-27T07:54:39 PDT">
+      <class name="com.app.scripts.Months_same">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.Months_same@1e965684]" name="setUp" is-config="true" duration-ms="9728" started-at="2020-10-27T07:54:07 PDT" finished-at="2020-10-27T07:54:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifypatientcount()[pri:0, instance:com.app.scripts.Months_same@1e965684]" name="verifypatientcount" duration-ms="21428" started-at="2020-10-27T07:54:17 PDT" finished-at="2020-10-27T07:54:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypatientcount -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.Months_same@1e965684]" name="tearDowm" is-config="true" duration-ms="818" started-at="2020-10-27T07:54:38 PDT" finished-at="2020-10-27T07:54:39 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.Months_same -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
