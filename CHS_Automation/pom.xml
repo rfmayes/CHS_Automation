@@ -15,8 +15,7 @@
  <properties>
 		<suiteXmlFile>TestNG_Files\All_Suite.xml</suiteXmlFile>
 		<suiteXmlFile>TestNG_Files\TC004_VerifyDaysofCare.xml</suiteXmlFile>
-		
- </properties>
+		 </properties>
 
 	<dependencies>
 	<dependency>
