@@ -56,6 +56,12 @@ public class LoginPage extends DriverHelper {
 		WaitUntilWebElementIsVisible(loginButton);
 		return PageFactory.initElements(getWebDriver(), LoginPage.class);
 	}
+		
+public LoginPage findtheError() throws InterruptedException {
+	loginButton.click();
+	driver.findElement(By.xpath("//div[contains(@class,\"MuiCollapse-container jss\")][1]"));
+	return PageFactory.initElements(getWebDriver(), LoginPage.class);
+	}
 	
 	
 	

@@ -1,78 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.app.scripts.TC010_VerifyEDslash1000">
+      <class name="com.app.scripts.TC014_Division">
         <methods>
-          <include name="verifyhslash1000"/>
-          <include name="tearDowm"/>
           <include name="setUp"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC010_VerifyEDslash1000 -->
-      <class name="com.app.scripts.TC004_VerifyDaysofCare">
-        <methods>
           <include name="tearDowm"/>
-          <include name="setUp"/>
-          <include name="verifypatientcount"/>
+          <include name="verifyLabelAndBreadcrumbTest"/>
         </methods>
-      </class> <!-- com.app.scripts.TC004_VerifyDaysofCare -->
-      <class name="com.app.scripts.TC007_VerifyEDslashED">
-        <methods>
-          <include name="tearDowm"/>
-          <include name="setUp"/>
-          <include name="verifyedslashed"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC007_VerifyEDslashED -->
-      <class name="com.app.scripts.TC008_VerifyACHslashADM">
-        <methods>
-          <include name="tearDowm"/>
-          <include name="setUp"/>
-          <include name="verifyachslashadm"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC008_VerifyACHslashADM -->
-      <class name="com.app.scripts.TC011_VerifyADMslash1000">
-        <methods>
-          <include name="tearDowm"/>
-          <include name="setUp"/>
-          <include name="verifyadmslash1000"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC011_VerifyADMslash1000 -->
-      <class name="com.app.scripts.TC003_VerifyPatientCount">
-        <methods>
-          <include name="tearDowm"/>
-          <include name="setUp"/>
-          <include name="verifypatientcount"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC003_VerifyPatientCount -->
-      <class name="com.app.scripts.TC009_VerifyHslash1000">
-        <methods>
-          <include name="tearDowm"/>
-          <include name="setUp"/>
-          <include name="verifyhslash1000"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC009_VerifyHslash1000 -->
-      <class name="com.app.scripts.TC005_VerifySNFADM">
-        <methods>
-          <include name="verifsnfadm"/>
-          <include name="tearDowm"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC005_VerifySNFADM -->
-      <class name="com.app.scripts.TC012_VerifyPDLTDOC">
-        <methods>
-          <include name="tearDowm"/>
-          <include name="setUp"/>
-          <include name="verifsnfadm"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC012_VerifyPDLTDOC -->
-      <class name="com.app.scripts.TC006_VerifyRTH">
-        <methods>
-          <include name="tearDowm"/>
-          <include name="setUp"/>
-          <include name="verifyrth"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC006_VerifyRTH -->
+      </class> <!-- com.app.scripts.TC014_Division -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

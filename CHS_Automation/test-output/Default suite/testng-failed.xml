@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.app.scripts.TC003_VerifyPatientCount">
+      <class name="com.app.scripts.TC014_Division">
         <methods>
           <include name="setUp"/>
           <include name="tearDowm"/>
-          <include name="verifypatientcount"/>
+          <include name="verifyLabelAndBreadcrumbTest"/>
         </methods>
-      </class> <!-- com.app.scripts.TC003_VerifyPatientCount -->
+      </class> <!-- com.app.scripts.TC014_Division -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32030" started-at="2020-10-27T07:54:07 PDT" finished-at="2020-10-27T07:54:39 PDT">
+  <suite name="Default suite" duration-ms="18673" started-at="2020-11-04T02:11:00 PST" finished-at="2020-11-04T02:11:19 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32030" started-at="2020-10-27T07:54:07 PDT" finished-at="2020-10-27T07:54:39 PDT">
-      <class name="com.app.scripts.Months_same">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.Months_same@1e965684]" name="setUp" is-config="true" duration-ms="9728" started-at="2020-10-27T07:54:07 PDT" finished-at="2020-10-27T07:54:17 PDT">
+    <test name="Default test" duration-ms="18673" started-at="2020-11-04T02:11:00 PST" finished-at="2020-11-04T02:11:19 PST">
+      <class name="com.app.scripts.TC014_Division">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.TC014_Division@1e965684]" name="setUp" is-config="true" duration-ms="8937" started-at="2020-11-04T02:11:00 PST" finished-at="2020-11-04T02:11:09 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifypatientcount()[pri:0, instance:com.app.scripts.Months_same@1e965684]" name="verifypatientcount" duration-ms="21428" started-at="2020-10-27T07:54:17 PDT" finished-at="2020-10-27T07:54:38 PDT">
+        <test-method status="PASS" signature="verifyLabelAndBreadcrumbTest()[pri:0, instance:com.app.scripts.TC014_Division@1e965684]" name="verifyLabelAndBreadcrumbTest" duration-ms="8817" started-at="2020-11-04T02:11:09 PST" finished-at="2020-11-04T02:11:18 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifypatientcount -->
-        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.Months_same@1e965684]" name="tearDowm" is-config="true" duration-ms="818" started-at="2020-10-27T07:54:38 PDT" finished-at="2020-10-27T07:54:39 PDT">
+        </test-method> <!-- verifyLabelAndBreadcrumbTest -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.TC014_Division@1e965684]" name="tearDowm" is-config="true" duration-ms="845" started-at="2020-11-04T02:11:18 PST" finished-at="2020-11-04T02:11:19 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDowm -->
-      </class> <!-- com.app.scripts.Months_same -->
+      </class> <!-- com.app.scripts.TC014_Division -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

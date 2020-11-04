@@ -32,10 +32,12 @@ public class TC001_VerifyDateRangeAnd_INSPCheckbox extends DriverTestCase {
 		  
 		  //Get the system local current date
 		  String getSystemLocalCurrentDate= getCurrentLocalDate();
+		  System.out.println(getSystemLocalCurrentDate);
 		  
 		  //get the application start & current data in facility profile page
 		  String startDate= facilityProfilePage.getStartDate();
 		  String currentDateFromWebApplication= facilityProfilePage.getCurrentDate();
+		  
 		  
 		  //verify that both the system local current date and application current date should be same
 	   	  Assert.assertEquals(currentDateFromWebApplication, getSystemLocalCurrentDate, "System local current data and application current date should be same");;

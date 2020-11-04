@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 23 10:15:51 PDT 2020</td>
+<td>Started on:</td><td>Mon Nov 02 09:19:21 PST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>361 seconds (361163 ms)</td>
+<tr><td>Total time:</td><td>512 seconds (512272 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,100 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox.verifyCurrentDateAndISNPCheckBox()'><b>verifyCurrentDateAndISNPCheckBox</b><br>Test class: com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox</td>
+<td><div><pre>java.lang.AssertionError: System local current data and application current date should be same expected [11/02/2020] but found [11/01/2020]
+	at com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox.verifyCurrentDateAndISNPCheckBox(TC001_VerifyDateRangeAnd_INSPCheckbox.java:41)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2022689531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2022689531'><pre>java.lang.AssertionError: System local current data and application current date should be same expected [11/02/2020] but found [11/01/2020]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox.verifyCurrentDateAndISNPCheckBox(TC001_VerifyDateRangeAnd_INSPCheckbox.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>8</td>
+<td>com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox@59e5ddf</td></tr>
+<tr>
+<td title='com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb.verifyLabelAndBreadcrumbTest()'><b>verifyLabelAndBreadcrumbTest</b><br>Test class: com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb</td>
+<td><div><pre>java.lang.AssertionError: Breadcrumb should be display as expected expected [true] but found [false]
+	at com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb.verifyLabelAndBreadcrumbTest(TC002_VerifyLabelAnd_Breadcrumb.java:42)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22446425", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22446425'><pre>java.lang.AssertionError: Breadcrumb should be display as expected expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb.verifyLabelAndBreadcrumbTest(TC002_VerifyLabelAnd_Breadcrumb.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb@536aaa8d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,65 +169,75 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.app.scripts.Months_different.monthsdifferent()'><b>monthsdifferent</b><br>Test class: com.app.scripts.Months_different</td>
+<td></td>
+<td>23</td>
+<td>com.app.scripts.Months_different@458c1321</td></tr>
+<tr>
 <td title='com.app.scripts.TC005_VerifySNFADM.verifsnfadm()'><b>verifsnfadm</b><br>Test class: com.app.scripts.TC005_VerifySNFADM</td>
 <td></td>
 <td>22</td>
-<td>com.app.scripts.TC005_VerifySNFADM@646d64ab</td></tr>
+<td>com.app.scripts.TC005_VerifySNFADM@76f2b07d</td></tr>
 <tr>
 <td title='com.app.scripts.TC012_VerifyPDLTDOC.verifsnfadm()'><b>verifsnfadm</b><br>Test class: com.app.scripts.TC012_VerifyPDLTDOC</td>
 <td></td>
-<td>20</td>
-<td>com.app.scripts.TC012_VerifyPDLTDOC@6ee52dcd</td></tr>
-<tr>
-<td title='com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox.verifyCurrentDateAndISNPCheckBox()'><b>verifyCurrentDateAndISNPCheckBox</b><br>Test class: com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox</td>
-<td></td>
-<td>9</td>
-<td>com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox@33f88ab</td></tr>
-<tr>
-<td title='com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb.verifyLabelAndBreadcrumbTest()'><b>verifyLabelAndBreadcrumbTest</b><br>Test class: com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb</td>
-<td></td>
-<td>13</td>
-<td>com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb@27a8c74e</td></tr>
+<td>22</td>
+<td>com.app.scripts.TC012_VerifyPDLTDOC@1877ab81</td></tr>
 <tr>
 <td title='com.app.scripts.TC008_VerifyACHslashADM.verifyachslashadm()'><b>verifyachslashadm</b><br>Test class: com.app.scripts.TC008_VerifyACHslashADM</td>
 <td></td>
 <td>21</td>
-<td>com.app.scripts.TC008_VerifyACHslashADM@e320068</td></tr>
+<td>com.app.scripts.TC008_VerifyACHslashADM@4493d195</td></tr>
 <tr>
 <td title='com.app.scripts.TC011_VerifyADMslash1000.verifyadmslash1000()'><b>verifyadmslash1000</b><br>Test class: com.app.scripts.TC011_VerifyADMslash1000</td>
 <td></td>
-<td>21</td>
-<td>com.app.scripts.TC011_VerifyADMslash1000@704a52ec</td></tr>
+<td>22</td>
+<td>com.app.scripts.TC011_VerifyADMslash1000@4232c52b</td></tr>
 <tr>
 <td title='com.app.scripts.TC007_VerifyEDslashED.verifyedslashed()'><b>verifyedslashed</b><br>Test class: com.app.scripts.TC007_VerifyEDslashED</td>
 <td></td>
-<td>19</td>
-<td>com.app.scripts.TC007_VerifyEDslashED@536aaa8d</td></tr>
+<td>21</td>
+<td>com.app.scripts.TC007_VerifyEDslashED@6ee52dcd</td></tr>
 <tr>
 <td title='com.app.scripts.TC009_VerifyHslash1000.verifyhslash1000()'><b>verifyhslash1000</b><br>Test class: com.app.scripts.TC009_VerifyHslash1000</td>
 <td></td>
-<td>21</td>
-<td>com.app.scripts.TC009_VerifyHslash1000@1f57539</td></tr>
+<td>22</td>
+<td>com.app.scripts.TC009_VerifyHslash1000@2781e022</td></tr>
 <tr>
 <td title='com.app.scripts.TC010_VerifyEDslash1000.verifyhslash1000()'><b>verifyhslash1000</b><br>Test class: com.app.scripts.TC010_VerifyEDslash1000</td>
 <td></td>
-<td>21</td>
-<td>com.app.scripts.TC010_VerifyEDslash1000@76f2b07d</td></tr>
+<td>22</td>
+<td>com.app.scripts.TC010_VerifyEDslash1000@57e1b0c</td></tr>
 <tr>
 <td title='com.app.scripts.TC003_VerifyPatientCount.verifypatientcount()'><b>verifypatientcount</b><br>Test class: com.app.scripts.TC003_VerifyPatientCount</td>
 <td></td>
-<td>21</td>
-<td>com.app.scripts.TC003_VerifyPatientCount@2d8f65a4</td></tr>
+<td>22</td>
+<td>com.app.scripts.TC003_VerifyPatientCount@e320068</td></tr>
 <tr>
 <td title='com.app.scripts.TC004_VerifyDaysofCare.verifypatientcount()'><b>verifypatientcount</b><br>Test class: com.app.scripts.TC004_VerifyDaysofCare</td>
 <td></td>
 <td>21</td>
-<td>com.app.scripts.TC004_VerifyDaysofCare@1b68ddbd</td></tr>
+<td>com.app.scripts.TC004_VerifyDaysofCare@1f57539</td></tr>
+<tr>
+<td title='com.app.scripts.End_date_diff_month.verifypatientcount()'><b>verifypatientcount</b><br>Test class: com.app.scripts.End_date_diff_month</td>
+<td></td>
+<td>22</td>
+<td>com.app.scripts.End_date_diff_month@305fd85d</td></tr>
+<tr>
+<td title='com.app.scripts.Months_same.verifypatientcount()'><b>verifypatientcount</b><br>Test class: com.app.scripts.Months_same</td>
+<td></td>
+<td>22</td>
+<td>com.app.scripts.Months_same@11438d26</td></tr>
 <tr>
 <td title='com.app.scripts.TC006_VerifyRTH.verifyrth()'><b>verifyrth</b><br>Test class: com.app.scripts.TC006_VerifyRTH</td>
 <td></td>
 <td>21</td>
-<td>com.app.scripts.TC006_VerifyRTH@59e5ddf</td></tr>
+<td>com.app.scripts.TC006_VerifyRTH@704a52ec</td></tr>
+<tr>
+<td title='com.app.scripts.TC00_VerifyTableData.verifytabledata()'><b>verifytabledata</b><br>Test class: com.app.scripts.TC00_VerifyTableData</td>
+<td></td>
+<td>11</td>
+<td>com.app.scripts.TC00_VerifyTableData@646d64ab</td></tr>
 </table><p>
 </body>
 </html>

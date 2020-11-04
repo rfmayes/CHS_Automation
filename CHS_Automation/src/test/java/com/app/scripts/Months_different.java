@@ -11,7 +11,7 @@ public class Months_different extends DriverTestCase {
 
 
 @Test
-public void verifypatientcount() throws InterruptedException {
+public void monthsdifferent() throws InterruptedException {
 String emailAddress = propertyReader.readApplicationFile("loginEmail");
 String loginPassword = propertyReader.readApplicationFile("loginPassword");
 	  

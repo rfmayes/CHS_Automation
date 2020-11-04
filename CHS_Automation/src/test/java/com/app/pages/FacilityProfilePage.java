@@ -22,7 +22,7 @@ public class FacilityProfilePage extends DriverHelper {
 	@FindBy(xpath = "(//input[contains(@class,'MuiInputBase-input')])[2]")
 	private WebElement currentDate;
 	
-	@FindBy(xpath = "//span[@data-qa-testing='date-range-submit']")
+	@FindBy(xpath = "//div[@class='jss94']") //div[@class='jss94'] //span[@data-qa-testing='date-range-submit']
 	private WebElement submitDate;
 	
 	@FindBy(xpath = "//button[contains (@class,'MuiPickersCalendarHeader-iconButton')][1]")
@@ -95,7 +95,7 @@ public class FacilityProfilePage extends DriverHelper {
 		}
 		
 		public FacilityProfilePage clickSubmit() {
-			driver.findElement(By.xpath("//span[@data-qa-testing='date-range-submit']")).click();
+			driver.findElement(By.xpath("//div[@class='jss94']")).click();
 			return PageFactory.initElements(getWebDriver(), FacilityProfilePage.class);
 		}
 		
@@ -109,6 +109,7 @@ public class FacilityProfilePage extends DriverHelper {
 		
 		public FacilityProfilePage selectendDate(String EndDateNumber) throws InterruptedException {
 			currentDate.click();
+			driver.findElement(By.xpath("//button[contains(@class,'MuiPickersCalendarHeader-iconButton')][1]")).click();
 		    Thread.sleep(5000);
 		    driver.findElement(By.xpath("//p[contains(@class,'MuiTypography-colorInherit') and contains(text(),\'"+EndDateNumber+"\')]")).click();
 		    WaitUntilWebElementIsVisible(currentDate);

@@ -3,6 +3,7 @@
 <suite name="Suite" preserve-order="true">
   <test thread-count="5" name="Test">
     <classes>
+	    <class name="com.app.scripts.TC00_VerifyTableData"/>
 	   <class name="com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox"/>
        <class name="com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb"/>
        <class name="com.app.scripts.TC003_VerifyPatientCount"/>

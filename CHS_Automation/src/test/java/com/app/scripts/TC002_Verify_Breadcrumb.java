@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.app.utils.DriverTestCase;
 
-public class TC002_VerifyLabelAnd_Breadcrumb extends DriverTestCase {
+public class TC002_Verify_Breadcrumb extends DriverTestCase {
 
 	
 	
