@@ -5,6 +5,8 @@
     <classes>
 	   <class name="com.app.scripts.logins.TC001_ValidLogin"/>
 	   <class name="com.app.scripts.logins.TC002_InvalidLogin"/>
+	    <class name="com.app.scripts.logins.TC003_InvalidEmail"/>
+	    <class name="com.app.scripts.logins.TC004_InvalidPassword"/>
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

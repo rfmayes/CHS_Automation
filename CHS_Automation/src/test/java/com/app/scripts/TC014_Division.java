@@ -15,7 +15,7 @@ public class TC014_Division  extends DriverTestCase {
 	
 
 	@Test
-	public void verifyLabelAndBreadcrumbTest() throws InterruptedException {
+	public void division() throws InterruptedException {
 
 	
 		  String emailAddress = propertyReader.readApplicationFile("loginEmail");

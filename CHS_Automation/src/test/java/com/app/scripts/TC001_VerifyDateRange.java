@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.app.utils.DriverTestCase;
 
-public class TC001_VerifyDateRangeAnd_INSPCheckbox extends DriverTestCase {
+public class TC001_VerifyDateRange extends DriverTestCase {
 
 	
 	@Test
@@ -32,15 +32,17 @@ public class TC001_VerifyDateRangeAnd_INSPCheckbox extends DriverTestCase {
 		  
 		  //Get the system local current date
 		  String getSystemLocalCurrentDate= getCurrentLocalDate();
-		  System.out.println(getSystemLocalCurrentDate);
+		  System.out.println("Current Date:"+getSystemLocalCurrentDate);
 		  
 		  //get the application start & current data in facility profile page
 		  String startDate= facilityProfilePage.getStartDate();
+		  System.out.println("Start Date: "+startDate);
 		  String currentDateFromWebApplication= facilityProfilePage.getCurrentDate();
+		  System.out.println("End Date:"+currentDateFromWebApplication);
 		  
 		  
 		  //verify that both the system local current date and application current date should be same
-	   	  Assert.assertEquals(currentDateFromWebApplication, getSystemLocalCurrentDate, "System local current data and application current date should be same");;
+	   	  Assert.assertEquals(currentDateFromWebApplication, getSystemLocalCurrentDate, "System local current data and application current date should be same");
 		 	
 	   	  //verify that ISNP checkbox should not be checked at default
 	   	  boolean ISNPCheckBoxChecked = facilityProfilePage.isISNPCheckChecked();

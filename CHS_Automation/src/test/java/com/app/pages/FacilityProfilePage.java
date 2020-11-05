@@ -22,7 +22,7 @@ public class FacilityProfilePage extends DriverHelper {
 	@FindBy(xpath = "(//input[contains(@class,'MuiInputBase-input')])[2]")
 	private WebElement currentDate;
 	
-	@FindBy(xpath = "//div[@class='jss94']") //div[@class='jss94'] //span[@data-qa-testing='date-range-submit']
+	@FindBy(xpath = "//div[@data-qa-testing='date-range-submit']") //div[@class='jss94'] //span[@data-qa-testing='date-range-submit']
 	private WebElement submitDate;
 	
 	@FindBy(xpath = "//button[contains (@class,'MuiPickersCalendarHeader-iconButton')][1]")
@@ -30,6 +30,10 @@ public class FacilityProfilePage extends DriverHelper {
 	
 	@FindBy(xpath = "//span[contains(text(),'ISNP Only')]/preceding-sibling::span/span/input[@type='checkbox']")
 	private WebElement ISNPCheckBox;
+	
+	@FindBy(xpath = "//h4[contains(text(),'Austintown')]")
+	private WebElement AustintownLabel;
+	
 	
 	@FindBy(xpath = "//ol[@class='MuiBreadcrumbs-ol']")
 	private WebElement breadcrumb;
@@ -93,9 +97,9 @@ public class FacilityProfilePage extends DriverHelper {
 			String cDate= currentDate.getAttribute("value");
 			return cDate;
 		}
-		
+	
 		public FacilityProfilePage clickSubmit() {
-			driver.findElement(By.xpath("//div[@class='jss94']")).click();
+			driver.findElement(By.xpath("//div[@data-qa-testing='date-range-submit']")).click();
 			return PageFactory.initElements(getWebDriver(), FacilityProfilePage.class);
 		}
 		
@@ -147,7 +151,12 @@ public class FacilityProfilePage extends DriverHelper {
 		public String  getRegionText() {
 			String result= regionText.getText();
 			return result;
-		}	
+		}
+		
+		public String  getAustintownLabel() {
+			String result= AustintownLabel.getText();
+			return result;
+		}
 		
 		public String getPatientCountText() {
 			String result= PatientCount.getText();

@@ -3,20 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox">
+      <class name="com.app.scripts.TC001_VerifyDateRange">
         <methods>
           <include name="verifyCurrentDateAndISNPCheckBox"/>
           <include name="setUp"/>
           <include name="tearDowm"/>
         </methods>
-      </class> <!-- com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox -->
-      <class name="com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDowm"/>
-          <include name="verifyLabelAndBreadcrumbTest"/>
-        </methods>
-      </class> <!-- com.app.scripts.TC002_VerifyLabelAnd_Breadcrumb -->
+      </class> <!-- com.app.scripts.TC001_VerifyDateRange -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

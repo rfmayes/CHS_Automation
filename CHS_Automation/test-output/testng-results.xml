@@ -1,25 +1,1159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="82" passed="82">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18673" started-at="2020-11-04T02:11:00 PST" finished-at="2020-11-04T02:11:19 PST">
+  <suite name="Default suite" duration-ms="1489394" started-at="2020-11-04T10:25:41 PST" finished-at="2020-11-04T10:50:31 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18673" started-at="2020-11-04T02:11:00 PST" finished-at="2020-11-04T02:11:19 PST">
-      <class name="com.app.scripts.TC014_Division">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.TC014_Division@1e965684]" name="setUp" is-config="true" duration-ms="8937" started-at="2020-11-04T02:11:00 PST" finished-at="2020-11-04T02:11:09 PST">
+    <test name="Default test" duration-ms="1489394" started-at="2020-11-04T10:25:41 PST" finished-at="2020-11-04T10:50:31 PST">
+      <class name="com.app.scripts.allfacility.TC075_Wedgewood">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC075_Wedgewood@1d8d30f7]" name="setUp" is-config="true" duration-ms="8830" started-at="2020-11-04T10:25:41 PST" finished-at="2020-11-04T10:25:50 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLabelAndBreadcrumbTest()[pri:0, instance:com.app.scripts.TC014_Division@1e965684]" name="verifyLabelAndBreadcrumbTest" duration-ms="8817" started-at="2020-11-04T02:11:09 PST" finished-at="2020-11-04T02:11:18 PST">
+        <test-method status="PASS" signature="wedgewood()[pri:0, instance:com.app.scripts.allfacility.TC075_Wedgewood@1d8d30f7]" name="wedgewood" duration-ms="9741" started-at="2020-11-04T10:25:50 PST" finished-at="2020-11-04T10:26:00 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLabelAndBreadcrumbTest -->
-        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.TC014_Division@1e965684]" name="tearDowm" is-config="true" duration-ms="845" started-at="2020-11-04T02:11:18 PST" finished-at="2020-11-04T02:11:19 PST">
+        </test-method> <!-- wedgewood -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC075_Wedgewood@1d8d30f7]" name="tearDowm" is-config="true" duration-ms="772" started-at="2020-11-04T10:26:00 PST" finished-at="2020-11-04T10:26:01 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDowm -->
-      </class> <!-- com.app.scripts.TC014_Division -->
+      </class> <!-- com.app.scripts.allfacility.TC075_Wedgewood -->
+      <class name="com.app.scripts.allfacility.TC056_MarleyNeck">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC056_MarleyNeck@3e57cd70]" name="setUp" is-config="true" duration-ms="7287" started-at="2020-11-04T10:26:01 PST" finished-at="2020-11-04T10:26:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="marleyneck()[pri:0, instance:com.app.scripts.allfacility.TC056_MarleyNeck@3e57cd70]" name="marleyneck" duration-ms="9790" started-at="2020-11-04T10:26:08 PST" finished-at="2020-11-04T10:26:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- marleyneck -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC056_MarleyNeck@3e57cd70]" name="tearDowm" is-config="true" duration-ms="696" started-at="2020-11-04T10:26:18 PST" finished-at="2020-11-04T10:26:19 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC056_MarleyNeck -->
+      <class name="com.app.scripts.allfacility.TC047_Harrison">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC047_Harrison@9a7504c]" name="setUp" is-config="true" duration-ms="7259" started-at="2020-11-04T10:26:19 PST" finished-at="2020-11-04T10:26:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="harrison()[pri:0, instance:com.app.scripts.allfacility.TC047_Harrison@9a7504c]" name="harrison" duration-ms="9025" started-at="2020-11-04T10:26:26 PST" finished-at="2020-11-04T10:26:35 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- harrison -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC047_Harrison@9a7504c]" name="tearDowm" is-config="true" duration-ms="757" started-at="2020-11-04T10:26:35 PST" finished-at="2020-11-04T10:26:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC047_Harrison -->
+      <class name="com.app.scripts.allfacility.TC049_HollyHill">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC049_HollyHill@2c039ac6]" name="setUp" is-config="true" duration-ms="7362" started-at="2020-11-04T10:26:36 PST" finished-at="2020-11-04T10:26:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hollyhill()[pri:0, instance:com.app.scripts.allfacility.TC049_HollyHill@2c039ac6]" name="hollyhill" duration-ms="9466" started-at="2020-11-04T10:26:43 PST" finished-at="2020-11-04T10:26:52 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hollyhill -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC049_HollyHill@2c039ac6]" name="tearDowm" is-config="true" duration-ms="1678" started-at="2020-11-04T10:26:52 PST" finished-at="2020-11-04T10:26:54 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC049_HollyHill -->
+      <class name="com.app.scripts.allfacility.TC050_Homestead">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC050_Homestead@587d1d39]" name="setUp" is-config="true" duration-ms="8365" started-at="2020-11-04T10:26:54 PST" finished-at="2020-11-04T10:27:02 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homestead()[pri:0, instance:com.app.scripts.allfacility.TC050_Homestead@587d1d39]" name="homestead" duration-ms="10127" started-at="2020-11-04T10:27:02 PST" finished-at="2020-11-04T10:27:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homestead -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC050_Homestead@587d1d39]" name="tearDowm" is-config="true" duration-ms="746" started-at="2020-11-04T10:27:13 PST" finished-at="2020-11-04T10:27:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC050_Homestead -->
+      <class name="com.app.scripts.allfacility.TC003_AllenViewHC">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC003_AllenViewHC@58c1670b]" name="setUp" is-config="true" duration-ms="7340" started-at="2020-11-04T10:27:13 PST" finished-at="2020-11-04T10:27:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="allenviewhc()[pri:0, instance:com.app.scripts.allfacility.TC003_AllenViewHC@58c1670b]" name="allenviewhc" duration-ms="8789" started-at="2020-11-04T10:27:21 PST" finished-at="2020-11-04T10:27:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allenviewhc -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC003_AllenViewHC@58c1670b]" name="tearDowm" is-config="true" duration-ms="756" started-at="2020-11-04T10:27:29 PST" finished-at="2020-11-04T10:27:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC003_AllenViewHC -->
+      <class name="com.app.scripts.allfacility.TC045_Hagerstown">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC045_Hagerstown@6b57696f]" name="setUp" is-config="true" duration-ms="7219" started-at="2020-11-04T10:27:30 PST" finished-at="2020-11-04T10:27:37 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hagerstown()[pri:0, instance:com.app.scripts.allfacility.TC045_Hagerstown@6b57696f]" name="hagerstown" duration-ms="9565" started-at="2020-11-04T10:27:37 PST" finished-at="2020-11-04T10:27:47 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hagerstown -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC045_Hagerstown@6b57696f]" name="tearDowm" is-config="true" duration-ms="781" started-at="2020-11-04T10:27:47 PST" finished-at="2020-11-04T10:27:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC045_Hagerstown -->
+      <class name="com.app.scripts.allfacility.TC023_Copley">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC023_Copley@5bb21b69]" name="setUp" is-config="true" duration-ms="7444" started-at="2020-11-04T10:27:48 PST" finished-at="2020-11-04T10:27:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="copley()[pri:0, instance:com.app.scripts.allfacility.TC023_Copley@5bb21b69]" name="copley" duration-ms="11161" started-at="2020-11-04T10:27:55 PST" finished-at="2020-11-04T10:28:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copley -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC023_Copley@5bb21b69]" name="tearDowm" is-config="true" duration-ms="813" started-at="2020-11-04T10:28:06 PST" finished-at="2020-11-04T10:28:07 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC023_Copley -->
+      <class name="com.app.scripts.allfacility.TC027_Dixon">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC027_Dixon@38bc8ab5]" name="setUp" is-config="true" duration-ms="7362" started-at="2020-11-04T10:28:25 PST" finished-at="2020-11-04T10:28:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dixon()[pri:0, instance:com.app.scripts.allfacility.TC027_Dixon@38bc8ab5]" name="dixon" duration-ms="9038" started-at="2020-11-04T10:28:32 PST" finished-at="2020-11-04T10:28:41 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dixon -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC027_Dixon@38bc8ab5]" name="tearDowm" is-config="true" duration-ms="776" started-at="2020-11-04T10:28:41 PST" finished-at="2020-11-04T10:28:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC027_Dixon -->
+      <class name="com.app.scripts.allfacility.TC017_Caroleton">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC017_Caroleton@6b9651f3]" name="setUp" is-config="true" duration-ms="7413" started-at="2020-11-04T10:28:07 PST" finished-at="2020-11-04T10:28:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="caroleton()[pri:0, instance:com.app.scripts.allfacility.TC017_Caroleton@6b9651f3]" name="caroleton" duration-ms="9176" started-at="2020-11-04T10:28:15 PST" finished-at="2020-11-04T10:28:24 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caroleton -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC017_Caroleton@6b9651f3]" name="tearDowm" is-config="true" duration-ms="765" started-at="2020-11-04T10:28:24 PST" finished-at="2020-11-04T10:28:25 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC017_Caroleton -->
+      <class name="com.app.scripts.allfacility.TC051_IndianCreek">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC051_IndianCreek@687080dc]" name="setUp" is-config="true" duration-ms="9214" started-at="2020-11-04T10:28:42 PST" finished-at="2020-11-04T10:28:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="indiancreek()[pri:0, instance:com.app.scripts.allfacility.TC051_IndianCreek@687080dc]" name="indiancreek" duration-ms="9051" started-at="2020-11-04T10:28:51 PST" finished-at="2020-11-04T10:29:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indiancreek -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC051_IndianCreek@687080dc]" name="tearDowm" is-config="true" duration-ms="812" started-at="2020-11-04T10:29:00 PST" finished-at="2020-11-04T10:29:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC051_IndianCreek -->
+      <class name="com.app.scripts.allfacility.TC019_Chardon">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC019_Chardon@23d2a7e8]" name="setUp" is-config="true" duration-ms="7478" started-at="2020-11-04T10:29:01 PST" finished-at="2020-11-04T10:29:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="anchorage()[pri:0, instance:com.app.scripts.allfacility.TC019_Chardon@23d2a7e8]" name="anchorage" duration-ms="9368" started-at="2020-11-04T10:29:08 PST" finished-at="2020-11-04T10:29:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anchorage -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC019_Chardon@23d2a7e8]" name="tearDowm" is-config="true" duration-ms="791" started-at="2020-11-04T10:29:18 PST" finished-at="2020-11-04T10:29:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC019_Chardon -->
+      <class name="com.app.scripts.allfacility.TC070_Southwood">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC070_Southwood@7a9273a8]" name="setUp" is-config="true" duration-ms="7227" started-at="2020-11-04T10:29:18 PST" finished-at="2020-11-04T10:29:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="southwood()[pri:0, instance:com.app.scripts.allfacility.TC070_Southwood@7a9273a8]" name="southwood" duration-ms="9467" started-at="2020-11-04T10:29:26 PST" finished-at="2020-11-04T10:29:35 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- southwood -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC070_Southwood@7a9273a8]" name="tearDowm" is-config="true" duration-ms="754" started-at="2020-11-04T10:29:35 PST" finished-at="2020-11-04T10:29:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC070_Southwood -->
+      <class name="com.app.scripts.allfacility.TC065_SalemNorth">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC065_SalemNorth@26a7b76d]" name="setUp" is-config="true" duration-ms="7005" started-at="2020-11-04T10:29:36 PST" finished-at="2020-11-04T10:29:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="salemnorth()[pri:0, instance:com.app.scripts.allfacility.TC065_SalemNorth@26a7b76d]" name="salemnorth" duration-ms="9066" started-at="2020-11-04T10:29:43 PST" finished-at="2020-11-04T10:29:52 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salemnorth -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC065_SalemNorth@26a7b76d]" name="tearDowm" is-config="true" duration-ms="782" started-at="2020-11-04T10:29:52 PST" finished-at="2020-11-04T10:29:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC065_SalemNorth -->
+      <class name="com.app.scripts.allfacility.TC082_WyantWoods">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC082_WyantWoods@4abdb505]" name="setUp" is-config="true" duration-ms="7057" started-at="2020-11-04T10:29:53 PST" finished-at="2020-11-04T10:30:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="wyantwoods()[pri:0, instance:com.app.scripts.allfacility.TC082_WyantWoods@4abdb505]" name="wyantwoods" duration-ms="11021" started-at="2020-11-04T10:30:00 PST" finished-at="2020-11-04T10:30:11 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wyantwoods -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC082_WyantWoods@4abdb505]" name="tearDowm" is-config="true" duration-ms="768" started-at="2020-11-04T10:30:11 PST" finished-at="2020-11-04T10:30:12 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC082_WyantWoods -->
+      <class name="com.app.scripts.allfacility.TC067_Sellersburg">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC067_Sellersburg@7ce6a65d]" name="setUp" is-config="true" duration-ms="7647" started-at="2020-11-04T10:30:12 PST" finished-at="2020-11-04T10:30:19 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sellersburg()[pri:0, instance:com.app.scripts.allfacility.TC067_Sellersburg@7ce6a65d]" name="sellersburg" duration-ms="9431" started-at="2020-11-04T10:30:19 PST" finished-at="2020-11-04T10:30:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellersburg -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC067_Sellersburg@7ce6a65d]" name="tearDowm" is-config="true" duration-ms="763" started-at="2020-11-04T10:30:29 PST" finished-at="2020-11-04T10:30:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC067_Sellersburg -->
+      <class name="com.app.scripts.allfacility.TC039_GreatLakes">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC039_GreatLakes@e874448]" name="setUp" is-config="true" duration-ms="7300" started-at="2020-11-04T10:30:48 PST" finished-at="2020-11-04T10:30:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="greatlakes()[pri:0, instance:com.app.scripts.allfacility.TC039_GreatLakes@e874448]" name="greatlakes" duration-ms="9358" started-at="2020-11-04T10:30:55 PST" finished-at="2020-11-04T10:31:04 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- greatlakes -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC039_GreatLakes@e874448]" name="tearDowm" is-config="true" duration-ms="766" started-at="2020-11-04T10:31:04 PST" finished-at="2020-11-04T10:31:05 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC039_GreatLakes -->
+      <class name="com.app.scripts.allfacility.TC054_LakePointe">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC054_LakePointe@1500955a]" name="setUp" is-config="true" duration-ms="8082" started-at="2020-11-04T10:30:29 PST" finished-at="2020-11-04T10:30:38 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lakepointe()[pri:0, instance:com.app.scripts.allfacility.TC054_LakePointe@1500955a]" name="lakepointe" duration-ms="9519" started-at="2020-11-04T10:30:38 PST" finished-at="2020-11-04T10:30:47 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lakepointe -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC054_LakePointe@1500955a]" name="tearDowm" is-config="true" duration-ms="763" started-at="2020-11-04T10:30:47 PST" finished-at="2020-11-04T10:30:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC054_LakePointe -->
+      <class name="com.app.scripts.allfacility.TC028_EagleCreek">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC028_EagleCreek@29b5cd00]" name="setUp" is-config="true" duration-ms="7442" started-at="2020-11-04T10:31:05 PST" finished-at="2020-11-04T10:31:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="eaglecreek()[pri:0, instance:com.app.scripts.allfacility.TC028_EagleCreek@29b5cd00]" name="eaglecreek" duration-ms="9326" started-at="2020-11-04T10:31:13 PST" finished-at="2020-11-04T10:31:22 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eaglecreek -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC028_EagleCreek@29b5cd00]" name="tearDowm" is-config="true" duration-ms="761" started-at="2020-11-04T10:31:22 PST" finished-at="2020-11-04T10:31:23 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC028_EagleCreek -->
+      <class name="com.app.scripts.allfacility.TC057_MtVernon">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC057_MtVernon@60285225]" name="setUp" is-config="true" duration-ms="7376" started-at="2020-11-04T10:31:23 PST" finished-at="2020-11-04T10:31:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="mtvernon()[pri:0, instance:com.app.scripts.allfacility.TC057_MtVernon@60285225]" name="mtvernon" duration-ms="11949" started-at="2020-11-04T10:31:30 PST" finished-at="2020-11-04T10:31:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mtvernon -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC057_MtVernon@60285225]" name="tearDowm" is-config="true" duration-ms="780" started-at="2020-11-04T10:31:42 PST" finished-at="2020-11-04T10:31:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC057_MtVernon -->
+      <class name="com.app.scripts.allfacility.TC013_Bridgewater">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC013_Bridgewater@7113b13f]" name="setUp" is-config="true" duration-ms="7231" started-at="2020-11-04T10:31:43 PST" finished-at="2020-11-04T10:31:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="anchorage()[pri:0, instance:com.app.scripts.allfacility.TC013_Bridgewater@7113b13f]" name="anchorage" duration-ms="9980" started-at="2020-11-04T10:31:50 PST" finished-at="2020-11-04T10:32:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anchorage -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC013_Bridgewater@7113b13f]" name="tearDowm" is-config="true" duration-ms="751" started-at="2020-11-04T10:32:00 PST" finished-at="2020-11-04T10:32:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC013_Bridgewater -->
+      <class name="com.app.scripts.allfacility.TC081_Worthington">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC081_Worthington@45820e51]" name="setUp" is-config="true" duration-ms="7311" started-at="2020-11-04T10:32:01 PST" finished-at="2020-11-04T10:32:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="worthington()[pri:0, instance:com.app.scripts.allfacility.TC081_Worthington@45820e51]" name="worthington" duration-ms="9245" started-at="2020-11-04T10:32:08 PST" finished-at="2020-11-04T10:32:17 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- worthington -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC081_Worthington@45820e51]" name="tearDowm" is-config="true" duration-ms="755" started-at="2020-11-04T10:32:17 PST" finished-at="2020-11-04T10:32:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC081_Worthington -->
+      <class name="com.app.scripts.allfacility.TC015_Burlington">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC015_Burlington@42d8062c]" name="setUp" is-config="true" duration-ms="7711" started-at="2020-11-04T10:32:18 PST" finished-at="2020-11-04T10:32:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="burlington()[pri:0, instance:com.app.scripts.allfacility.TC015_Burlington@42d8062c]" name="burlington" duration-ms="9142" started-at="2020-11-04T10:32:26 PST" finished-at="2020-11-04T10:32:35 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- burlington -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC015_Burlington@42d8062c]" name="tearDowm" is-config="true" duration-ms="780" started-at="2020-11-04T10:32:35 PST" finished-at="2020-11-04T10:32:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC015_Burlington -->
+      <class name="com.app.scripts.allfacility.TC026_Cumberland">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC026_Cumberland@6043cd28]" name="setUp" is-config="true" duration-ms="7434" started-at="2020-11-04T10:32:36 PST" finished-at="2020-11-04T10:32:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cumberland()[pri:0, instance:com.app.scripts.allfacility.TC026_Cumberland@6043cd28]" name="cumberland" duration-ms="9305" started-at="2020-11-04T10:32:43 PST" finished-at="2020-11-04T10:32:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cumberland -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC026_Cumberland@6043cd28]" name="tearDowm" is-config="true" duration-ms="872" started-at="2020-11-04T10:32:53 PST" finished-at="2020-11-04T10:32:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC026_Cumberland -->
+      <class name="com.app.scripts.allfacility.TC061_PebbleCreek">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC061_PebbleCreek@cb51256]" name="setUp" is-config="true" duration-ms="7251" started-at="2020-11-04T10:32:53 PST" finished-at="2020-11-04T10:33:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pebblecreek()[pri:0, instance:com.app.scripts.allfacility.TC061_PebbleCreek@cb51256]" name="pebblecreek" duration-ms="11955" started-at="2020-11-04T10:33:01 PST" finished-at="2020-11-04T10:33:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pebblecreek -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC061_PebbleCreek@cb51256]" name="tearDowm" is-config="true" duration-ms="930" started-at="2020-11-04T10:33:13 PST" finished-at="2020-11-04T10:33:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC061_PebbleCreek -->
+      <class name="com.app.scripts.allfacility.TC038_GrandePointe">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC038_GrandePointe@5bfbf16f]" name="setUp" is-config="true" duration-ms="7208" started-at="2020-11-04T10:33:31 PST" finished-at="2020-11-04T10:33:38 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="grandepointe()[pri:0, instance:com.app.scripts.allfacility.TC038_GrandePointe@5bfbf16f]" name="grandepointe" duration-ms="11628" started-at="2020-11-04T10:33:38 PST" finished-at="2020-11-04T10:33:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grandepointe -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC038_GrandePointe@5bfbf16f]" name="tearDowm" is-config="true" duration-ms="802" started-at="2020-11-04T10:33:49 PST" finished-at="2020-11-04T10:33:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC038_GrandePointe -->
+      <class name="com.app.scripts.allfacility.TC064_RollingHills">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC064_RollingHills@59906517]" name="setUp" is-config="true" duration-ms="7327" started-at="2020-11-04T10:33:14 PST" finished-at="2020-11-04T10:33:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="rollinghills()[pri:0, instance:com.app.scripts.allfacility.TC064_RollingHills@59906517]" name="rollinghills" duration-ms="8939" started-at="2020-11-04T10:33:21 PST" finished-at="2020-11-04T10:33:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rollinghills -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC064_RollingHills@59906517]" name="tearDowm" is-config="true" duration-ms="767" started-at="2020-11-04T10:33:30 PST" finished-at="2020-11-04T10:33:31 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC064_RollingHills -->
+      <class name="com.app.scripts.allfacility.TC043_Greenfield">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC043_Greenfield@25af5db5]" name="setUp" is-config="true" duration-ms="7548" started-at="2020-11-04T10:33:50 PST" finished-at="2020-11-04T10:33:58 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="greenfield()[pri:0, instance:com.app.scripts.allfacility.TC043_Greenfield@25af5db5]" name="greenfield" duration-ms="9593" started-at="2020-11-04T10:33:58 PST" finished-at="2020-11-04T10:34:07 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- greenfield -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC043_Greenfield@25af5db5]" name="tearDowm" is-config="true" duration-ms="745" started-at="2020-11-04T10:34:07 PST" finished-at="2020-11-04T10:34:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC043_Greenfield -->
+      <class name="com.app.scripts.allfacility.TC062_Petersburg">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC062_Petersburg@12cdcf4]" name="setUp" is-config="true" duration-ms="7595" started-at="2020-11-04T10:34:08 PST" finished-at="2020-11-04T10:34:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="petersburg()[pri:0, instance:com.app.scripts.allfacility.TC062_Petersburg@12cdcf4]" name="petersburg" duration-ms="9019" started-at="2020-11-04T10:34:16 PST" finished-at="2020-11-04T10:34:25 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- petersburg -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC062_Petersburg@12cdcf4]" name="tearDowm" is-config="true" duration-ms="764" started-at="2020-11-04T10:34:25 PST" finished-at="2020-11-04T10:34:25 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC062_Petersburg -->
+      <class name="com.app.scripts.allfacility.TC053_Kokomo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC053_Kokomo@5bcea91b]" name="setUp" is-config="true" duration-ms="7367" started-at="2020-11-04T10:34:25 PST" finished-at="2020-11-04T10:34:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="kokomo()[pri:0, instance:com.app.scripts.allfacility.TC053_Kokomo@5bcea91b]" name="kokomo" duration-ms="8830" started-at="2020-11-04T10:34:33 PST" finished-at="2020-11-04T10:34:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kokomo -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC053_Kokomo@5bcea91b]" name="tearDowm" is-config="true" duration-ms="751" started-at="2020-11-04T10:34:42 PST" finished-at="2020-11-04T10:34:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC053_Kokomo -->
+      <class name="com.app.scripts.allfacility.TC034_Forestville">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC034_Forestville@5f3a4b84]" name="setUp" is-config="true" duration-ms="7335" started-at="2020-11-04T10:34:42 PST" finished-at="2020-11-04T10:34:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forestville()[pri:0, instance:com.app.scripts.allfacility.TC034_Forestville@5f3a4b84]" name="forestville" duration-ms="10743" started-at="2020-11-04T10:34:50 PST" finished-at="2020-11-04T10:35:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forestville -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC034_Forestville@5f3a4b84]" name="tearDowm" is-config="true" duration-ms="809" started-at="2020-11-04T10:35:01 PST" finished-at="2020-11-04T10:35:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC034_Forestville -->
+      <class name="com.app.scripts.allfacility.TC041_GreenbriarBdmn">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC041_GreenbriarBdmn@27f723]" name="setUp" is-config="true" duration-ms="7187" started-at="2020-11-04T10:35:01 PST" finished-at="2020-11-04T10:35:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="greenbriarbdmn()[pri:0, instance:com.app.scripts.allfacility.TC041_GreenbriarBdmn@27f723]" name="greenbriarbdmn" duration-ms="10622" started-at="2020-11-04T10:35:09 PST" finished-at="2020-11-04T10:35:19 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- greenbriarbdmn -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC041_GreenbriarBdmn@27f723]" name="tearDowm" is-config="true" duration-ms="741" started-at="2020-11-04T10:35:19 PST" finished-at="2020-11-04T10:35:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC041_GreenbriarBdmn -->
+      <class name="com.app.scripts.allfacility.TC048_Holbrook">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC048_Holbrook@670b40af]" name="setUp" is-config="true" duration-ms="7198" started-at="2020-11-04T10:35:20 PST" finished-at="2020-11-04T10:35:27 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="holbrook()[pri:0, instance:com.app.scripts.allfacility.TC048_Holbrook@670b40af]" name="holbrook" duration-ms="8974" started-at="2020-11-04T10:35:27 PST" finished-at="2020-11-04T10:35:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holbrook -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC048_Holbrook@670b40af]" name="tearDowm" is-config="true" duration-ms="734" started-at="2020-11-04T10:35:36 PST" finished-at="2020-11-04T10:35:37 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC048_Holbrook -->
+      <class name="com.app.scripts.allfacility.TC029_EllicottCity">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC029_EllicottCity@4923ab24]" name="setUp" is-config="true" duration-ms="7077" started-at="2020-11-04T10:35:37 PST" finished-at="2020-11-04T10:35:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ellicottcity()[pri:0, instance:com.app.scripts.allfacility.TC029_EllicottCity@4923ab24]" name="ellicottcity" duration-ms="11247" started-at="2020-11-04T10:35:44 PST" finished-at="2020-11-04T10:35:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ellicottcity -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC029_EllicottCity@4923ab24]" name="tearDowm" is-config="true" duration-ms="759" started-at="2020-11-04T10:35:55 PST" finished-at="2020-11-04T10:35:56 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC029_EllicottCity -->
+      <class name="com.app.scripts.allfacility.TC069_Southpointe">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC069_Southpointe@44c8afef]" name="setUp" is-config="true" duration-ms="7328" started-at="2020-11-04T10:35:56 PST" finished-at="2020-11-04T10:36:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="southpointe()[pri:0, instance:com.app.scripts.allfacility.TC069_Southpointe@44c8afef]" name="southpointe" duration-ms="9964" started-at="2020-11-04T10:36:03 PST" finished-at="2020-11-04T10:36:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- southpointe -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC069_Southpointe@44c8afef]" name="tearDowm" is-config="true" duration-ms="777" started-at="2020-11-04T10:36:13 PST" finished-at="2020-11-04T10:36:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC069_Southpointe -->
+      <class name="com.app.scripts.allfacility.TC032_FallingWater">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC032_FallingWater@7b69c6ba]" name="setUp" is-config="true" duration-ms="7260" started-at="2020-11-04T10:36:14 PST" finished-at="2020-11-04T10:36:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fallingwater()[pri:0, instance:com.app.scripts.allfacility.TC032_FallingWater@7b69c6ba]" name="fallingwater" duration-ms="10414" started-at="2020-11-04T10:36:21 PST" finished-at="2020-11-04T10:36:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fallingwater -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC032_FallingWater@7b69c6ba]" name="tearDowm" is-config="true" duration-ms="774" started-at="2020-11-04T10:36:32 PST" finished-at="2020-11-04T10:36:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC032_FallingWater -->
+      <class name="com.app.scripts.allfacility.TC033_Fayette">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC033_Fayette@46daef40]" name="setUp" is-config="true" duration-ms="7372" started-at="2020-11-04T10:36:32 PST" finished-at="2020-11-04T10:36:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fayette()[pri:0, instance:com.app.scripts.allfacility.TC033_Fayette@46daef40]" name="fayette" duration-ms="11285" started-at="2020-11-04T10:36:40 PST" finished-at="2020-11-04T10:36:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fayette -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC033_Fayette@46daef40]" name="tearDowm" is-config="true" duration-ms="795" started-at="2020-11-04T10:36:51 PST" finished-at="2020-11-04T10:36:52 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC033_Fayette -->
+      <class name="com.app.scripts.allfacility.TC055_Laurelwood">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC055_Laurelwood@12f41634]" name="setUp" is-config="true" duration-ms="7370" started-at="2020-11-04T10:36:52 PST" finished-at="2020-11-04T10:36:59 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="laurelwood()[pri:0, instance:com.app.scripts.allfacility.TC055_Laurelwood@12f41634]" name="laurelwood" duration-ms="9403" started-at="2020-11-04T10:36:59 PST" finished-at="2020-11-04T10:37:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laurelwood -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC055_Laurelwood@12f41634]" name="tearDowm" is-config="true" duration-ms="765" started-at="2020-11-04T10:37:09 PST" finished-at="2020-11-04T10:37:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC055_Laurelwood -->
+      <class name="com.app.scripts.allfacility.TC014_Brookside">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC014_Brookside@371a67ec]" name="setUp" is-config="true" duration-ms="7297" started-at="2020-11-04T10:37:48 PST" finished-at="2020-11-04T10:37:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="anchorage()[pri:0, instance:com.app.scripts.allfacility.TC014_Brookside@371a67ec]" name="anchorage" duration-ms="9219" started-at="2020-11-04T10:37:55 PST" finished-at="2020-11-04T10:38:04 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anchorage -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC014_Brookside@371a67ec]" name="tearDowm" is-config="true" duration-ms="765" started-at="2020-11-04T10:38:04 PST" finished-at="2020-11-04T10:38:05 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC014_Brookside -->
+      <class name="com.app.scripts.allfacility.TC040_GreenPark">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC040_GreenPark@5ed828d]" name="setUp" is-config="true" duration-ms="13178" started-at="2020-11-04T10:38:05 PST" finished-at="2020-11-04T10:38:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="greenpark()[pri:0, instance:com.app.scripts.allfacility.TC040_GreenPark@5ed828d]" name="greenpark" duration-ms="11685" started-at="2020-11-04T10:38:18 PST" finished-at="2020-11-04T10:38:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- greenpark -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC040_GreenPark@5ed828d]" name="tearDowm" is-config="true" duration-ms="770" started-at="2020-11-04T10:38:30 PST" finished-at="2020-11-04T10:38:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC040_GreenPark -->
+      <class name="com.app.scripts.allfacility.TC016_Canfield">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC016_Canfield@262b2c86]" name="setUp" is-config="true" duration-ms="7454" started-at="2020-11-04T10:37:30 PST" finished-at="2020-11-04T10:37:38 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canfield()[pri:0, instance:com.app.scripts.allfacility.TC016_Canfield@262b2c86]" name="canfield" duration-ms="9032" started-at="2020-11-04T10:37:38 PST" finished-at="2020-11-04T10:37:47 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canfield -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC016_Canfield@262b2c86]" name="tearDowm" is-config="true" duration-ms="935" started-at="2020-11-04T10:37:47 PST" finished-at="2020-11-04T10:37:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC016_Canfield -->
+      <class name="com.app.scripts.allfacility.TC021_Clinton">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC021_Clinton@13c27452]" name="setUp" is-config="true" duration-ms="7526" started-at="2020-11-04T10:37:09 PST" finished-at="2020-11-04T10:37:17 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clinton()[pri:0, instance:com.app.scripts.allfacility.TC021_Clinton@13c27452]" name="clinton" duration-ms="12441" started-at="2020-11-04T10:37:17 PST" finished-at="2020-11-04T10:37:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clinton -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC021_Clinton@13c27452]" name="tearDowm" is-config="true" duration-ms="764" started-at="2020-11-04T10:37:29 PST" finished-at="2020-11-04T10:37:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC021_Clinton -->
+      <class name="com.app.scripts.allfacility.TC018_Cedars">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC018_Cedars@7a3d45bd]" name="setUp" is-config="true" duration-ms="7305" started-at="2020-11-04T10:38:49 PST" finished-at="2020-11-04T10:38:56 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cedars()[pri:0, instance:com.app.scripts.allfacility.TC018_Cedars@7a3d45bd]" name="cedars" duration-ms="9199" started-at="2020-11-04T10:38:56 PST" finished-at="2020-11-04T10:39:05 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cedars -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC018_Cedars@7a3d45bd]" name="tearDowm" is-config="true" duration-ms="784" started-at="2020-11-04T10:39:05 PST" finished-at="2020-11-04T10:39:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC018_Cedars -->
+      <class name="com.app.scripts.allfacility.TC063_Riverside">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC063_Riverside@50d0686]" name="setUp" is-config="true" duration-ms="7326" started-at="2020-11-04T10:38:30 PST" finished-at="2020-11-04T10:38:38 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="riverside()[pri:0, instance:com.app.scripts.allfacility.TC063_Riverside@50d0686]" name="riverside" duration-ms="10348" started-at="2020-11-04T10:38:38 PST" finished-at="2020-11-04T10:38:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- riverside -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC063_Riverside@50d0686]" name="tearDowm" is-config="true" duration-ms="747" started-at="2020-11-04T10:38:48 PST" finished-at="2020-11-04T10:38:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC063_Riverside -->
+      <class name="com.app.scripts.allfacility.TC024_Crestwood">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC024_Crestwood@1e7c7811]" name="setUp" is-config="true" duration-ms="6930" started-at="2020-11-04T10:39:06 PST" finished-at="2020-11-04T10:39:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crestwood()[pri:0, instance:com.app.scripts.allfacility.TC024_Crestwood@1e7c7811]" name="crestwood" duration-ms="9663" started-at="2020-11-04T10:39:13 PST" finished-at="2020-11-04T10:39:23 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crestwood -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC024_Crestwood@1e7c7811]" name="tearDowm" is-config="true" duration-ms="753" started-at="2020-11-04T10:39:23 PST" finished-at="2020-11-04T10:39:24 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC024_Crestwood -->
+      <class name="com.app.scripts.allfacility.TC068_SouthRiver">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC068_SouthRiver@77ec78b9]" name="setUp" is-config="true" duration-ms="7058" started-at="2020-11-04T10:39:24 PST" finished-at="2020-11-04T10:39:31 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="southriver()[pri:0, instance:com.app.scripts.allfacility.TC068_SouthRiver@77ec78b9]" name="southriver" duration-ms="9637" started-at="2020-11-04T10:39:31 PST" finished-at="2020-11-04T10:39:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- southriver -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC068_SouthRiver@77ec78b9]" name="tearDowm" is-config="true" duration-ms="748" started-at="2020-11-04T10:39:40 PST" finished-at="2020-11-04T10:39:41 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC068_SouthRiver -->
+      <class name="com.app.scripts.allfacility.TC008_BattlefieldPark">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC008_BattlefieldPark@1a3869f4]" name="setUp" is-config="true" duration-ms="7233" started-at="2020-11-04T10:39:41 PST" finished-at="2020-11-04T10:39:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="battlefieldpark()[pri:0, instance:com.app.scripts.allfacility.TC008_BattlefieldPark@1a3869f4]" name="battlefieldpark" duration-ms="9407" started-at="2020-11-04T10:39:48 PST" finished-at="2020-11-04T10:39:58 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- battlefieldpark -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC008_BattlefieldPark@1a3869f4]" name="tearDowm" is-config="true" duration-ms="759" started-at="2020-11-04T10:39:58 PST" finished-at="2020-11-04T10:39:58 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC008_BattlefieldPark -->
+      <class name="com.app.scripts.allfacility.TC007_Baldwin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC007_Baldwin@a38d7a3]" name="setUp" is-config="true" duration-ms="7431" started-at="2020-11-04T10:39:58 PST" finished-at="2020-11-04T10:40:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="baldwin()[pri:0, instance:com.app.scripts.allfacility.TC007_Baldwin@a38d7a3]" name="baldwin" duration-ms="11899" started-at="2020-11-04T10:40:06 PST" finished-at="2020-11-04T10:40:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baldwin -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC007_Baldwin@a38d7a3]" name="tearDowm" is-config="true" duration-ms="775" started-at="2020-11-04T10:40:18 PST" finished-at="2020-11-04T10:40:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC007_Baldwin -->
+      <class name="com.app.scripts.allfacility.TC079_WillowTree">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC079_WillowTree@63440df3]" name="setUp" is-config="true" duration-ms="7232" started-at="2020-11-04T10:40:37 PST" finished-at="2020-11-04T10:40:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="willowtree()[pri:0, instance:com.app.scripts.allfacility.TC079_WillowTree@63440df3]" name="willowtree" duration-ms="10487" started-at="2020-11-04T10:40:44 PST" finished-at="2020-11-04T10:40:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- willowtree -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC079_WillowTree@63440df3]" name="tearDowm" is-config="true" duration-ms="737" started-at="2020-11-04T10:40:55 PST" finished-at="2020-11-04T10:40:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC079_WillowTree -->
+      <class name="com.app.scripts.allfacility.TC025_CrystalCreek">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC025_CrystalCreek@77f99a05]" name="setUp" is-config="true" duration-ms="7544" started-at="2020-11-04T10:40:18 PST" finished-at="2020-11-04T10:40:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crystalcreek()[pri:0, instance:com.app.scripts.allfacility.TC025_CrystalCreek@77f99a05]" name="crystalcreek" duration-ms="10116" started-at="2020-11-04T10:40:26 PST" finished-at="2020-11-04T10:40:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crystalcreek -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC025_CrystalCreek@77f99a05]" name="tearDowm" is-config="true" duration-ms="747" started-at="2020-11-04T10:40:36 PST" finished-at="2020-11-04T10:40:37 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC025_CrystalCreek -->
+      <class name="com.app.scripts.allfacility.TC002_AdvancedHC">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC002_AdvancedHC@3aeaafa6]" name="setUp" is-config="true" duration-ms="7149" started-at="2020-11-04T10:40:55 PST" finished-at="2020-11-04T10:41:02 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="advancedhc()[pri:0, instance:com.app.scripts.allfacility.TC002_AdvancedHC@3aeaafa6]" name="advancedhc" duration-ms="10025" started-at="2020-11-04T10:41:02 PST" finished-at="2020-11-04T10:41:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advancedhc -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC002_AdvancedHC@3aeaafa6]" name="tearDowm" is-config="true" duration-ms="756" started-at="2020-11-04T10:41:13 PST" finished-at="2020-11-04T10:41:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC002_AdvancedHC -->
+      <class name="com.app.scripts.allfacility.TC036_GardenValley">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC036_GardenValley@76a3e297]" name="setUp" is-config="true" duration-ms="7262" started-at="2020-11-04T10:41:13 PST" finished-at="2020-11-04T10:41:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gardenvalley()[pri:0, instance:com.app.scripts.allfacility.TC036_GardenValley@76a3e297]" name="gardenvalley" duration-ms="9289" started-at="2020-11-04T10:41:21 PST" finished-at="2020-11-04T10:41:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gardenvalley -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC036_GardenValley@76a3e297]" name="tearDowm" is-config="true" duration-ms="767" started-at="2020-11-04T10:41:30 PST" finished-at="2020-11-04T10:41:31 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC036_GardenValley -->
+      <class name="com.app.scripts.allfacility.TC052_Kensington">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC052_Kensington@4d3167f4]" name="setUp" is-config="true" duration-ms="7455" started-at="2020-11-04T10:41:31 PST" finished-at="2020-11-04T10:41:38 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="kensington()[pri:0, instance:com.app.scripts.allfacility.TC052_Kensington@4d3167f4]" name="kensington" duration-ms="11221" started-at="2020-11-04T10:41:38 PST" finished-at="2020-11-04T10:41:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kensington -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC052_Kensington@4d3167f4]" name="tearDowm" is-config="true" duration-ms="773" started-at="2020-11-04T10:41:49 PST" finished-at="2020-11-04T10:41:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC052_Kensington -->
+      <class name="com.app.scripts.allfacility.TC046_Hanover">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC046_Hanover@ed9d034]" name="setUp" is-config="true" duration-ms="7713" started-at="2020-11-04T10:41:50 PST" finished-at="2020-11-04T10:41:58 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hanover()[pri:0, instance:com.app.scripts.allfacility.TC046_Hanover@ed9d034]" name="hanover" duration-ms="10097" started-at="2020-11-04T10:41:58 PST" finished-at="2020-11-04T10:42:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hanover -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC046_Hanover@ed9d034]" name="tearDowm" is-config="true" duration-ms="774" started-at="2020-11-04T10:42:08 PST" finished-at="2020-11-04T10:42:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC046_Hanover -->
+      <class name="com.app.scripts.allfacility.TC073_ThreeRivers">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC073_ThreeRivers@6121c9d6]" name="setUp" is-config="true" duration-ms="7418" started-at="2020-11-04T10:42:09 PST" finished-at="2020-11-04T10:42:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="threerivers()[pri:0, instance:com.app.scripts.allfacility.TC073_ThreeRivers@6121c9d6]" name="threerivers" duration-ms="8928" started-at="2020-11-04T10:42:16 PST" finished-at="2020-11-04T10:42:25 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threerivers -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC073_ThreeRivers@6121c9d6]" name="tearDowm" is-config="true" duration-ms="735" started-at="2020-11-04T10:42:25 PST" finished-at="2020-11-04T10:42:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC073_ThreeRivers -->
+      <class name="com.app.scripts.allfacility.TC004_AllisonPointe">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC004_AllisonPointe@4eb7f003]" name="setUp" is-config="true" duration-ms="7736" started-at="2020-11-04T10:42:46 PST" finished-at="2020-11-04T10:42:54 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="allisonpointe()[pri:0, instance:com.app.scripts.allfacility.TC004_AllisonPointe@4eb7f003]" name="allisonpointe" duration-ms="9573" started-at="2020-11-04T10:42:54 PST" finished-at="2020-11-04T10:43:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allisonpointe -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC004_AllisonPointe@4eb7f003]" name="tearDowm" is-config="true" duration-ms="825" started-at="2020-11-04T10:43:03 PST" finished-at="2020-11-04T10:43:04 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC004_AllisonPointe -->
+      <class name="com.app.scripts.allfacility.TC077_Wexford">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC077_Wexford@87f383f]" name="setUp" is-config="true" duration-ms="7642" started-at="2020-11-04T10:42:26 PST" finished-at="2020-11-04T10:42:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="wexford()[pri:0, instance:com.app.scripts.allfacility.TC077_Wexford@87f383f]" name="wexford" duration-ms="12044" started-at="2020-11-04T10:42:33 PST" finished-at="2020-11-04T10:42:45 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wexford -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC077_Wexford@87f383f]" name="tearDowm" is-config="true" duration-ms="780" started-at="2020-11-04T10:42:45 PST" finished-at="2020-11-04T10:42:46 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC077_Wexford -->
+      <class name="com.app.scripts.allfacility.TC001_Addison">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC001_Addison@eafc191]" name="setUp" is-config="true" duration-ms="7246" started-at="2020-11-04T10:43:04 PST" finished-at="2020-11-04T10:43:12 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addison()[pri:0, instance:com.app.scripts.allfacility.TC001_Addison@eafc191]" name="addison" duration-ms="8866" started-at="2020-11-04T10:43:12 PST" finished-at="2020-11-04T10:43:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addison -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC001_Addison@eafc191]" name="tearDowm" is-config="true" duration-ms="1171" started-at="2020-11-04T10:43:20 PST" finished-at="2020-11-04T10:43:22 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC001_Addison -->
+      <class name="com.app.scripts.allfacility.TC031_EvergreenCrossing">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC031_EvergreenCrossing@612fc6eb]" name="setUp" is-config="true" duration-ms="7587" started-at="2020-11-04T10:43:22 PST" finished-at="2020-11-04T10:43:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="evergreencrossing()[pri:0, instance:com.app.scripts.allfacility.TC031_EvergreenCrossing@612fc6eb]" name="evergreencrossing" duration-ms="9801" started-at="2020-11-04T10:43:29 PST" finished-at="2020-11-04T10:43:39 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evergreencrossing -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC031_EvergreenCrossing@612fc6eb]" name="tearDowm" is-config="true" duration-ms="759" started-at="2020-11-04T10:43:39 PST" finished-at="2020-11-04T10:43:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC031_EvergreenCrossing -->
+      <class name="com.app.scripts.allfacility.TC010_BereaAlz">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC010_BereaAlz@11758f2a]" name="setUp" is-config="true" duration-ms="7378" started-at="2020-11-04T10:44:16 PST" finished-at="2020-11-04T10:44:24 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bereaalz()[pri:0, instance:com.app.scripts.allfacility.TC010_BereaAlz@11758f2a]" name="bereaalz" duration-ms="9351" started-at="2020-11-04T10:44:24 PST" finished-at="2020-11-04T10:44:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bereaalz -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC010_BereaAlz@11758f2a]" name="tearDowm" is-config="true" duration-ms="768" started-at="2020-11-04T10:44:33 PST" finished-at="2020-11-04T10:44:34 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC010_BereaAlz -->
+      <class name="com.app.scripts.allfacility.TC076_Westminster">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC076_Westminster@612679d6]" name="setUp" is-config="true" duration-ms="7367" started-at="2020-11-04T10:43:59 PST" finished-at="2020-11-04T10:44:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="westminster()[pri:0, instance:com.app.scripts.allfacility.TC076_Westminster@612679d6]" name="westminster" duration-ms="9690" started-at="2020-11-04T10:44:06 PST" finished-at="2020-11-04T10:44:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- westminster -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC076_Westminster@612679d6]" name="tearDowm" is-config="true" duration-ms="711" started-at="2020-11-04T10:44:16 PST" finished-at="2020-11-04T10:44:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC076_Westminster -->
+      <class name="com.app.scripts.allfacility.TC011_BluePoint">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC011_BluePoint@1060b431]" name="setUp" is-config="true" duration-ms="7124" started-at="2020-11-04T10:43:40 PST" finished-at="2020-11-04T10:43:47 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bluepoint()[pri:0, instance:com.app.scripts.allfacility.TC011_BluePoint@1060b431]" name="bluepoint" duration-ms="11021" started-at="2020-11-04T10:43:47 PST" finished-at="2020-11-04T10:43:58 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bluepoint -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC011_BluePoint@1060b431]" name="tearDowm" is-config="true" duration-ms="773" started-at="2020-11-04T10:43:58 PST" finished-at="2020-11-04T10:43:59 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC011_BluePoint -->
+      <class name="com.app.scripts.allfacility.TC058_Northwest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC058_Northwest@1b26f7b2]" name="setUp" is-config="true" duration-ms="7077" started-at="2020-11-04T10:44:53 PST" finished-at="2020-11-04T10:45:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="northwest()[pri:0, instance:com.app.scripts.allfacility.TC058_Northwest@1b26f7b2]" name="northwest" duration-ms="9503" started-at="2020-11-04T10:45:00 PST" finished-at="2020-11-04T10:45:10 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- northwest -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC058_Northwest@1b26f7b2]" name="tearDowm" is-config="true" duration-ms="737" started-at="2020-11-04T10:45:10 PST" finished-at="2020-11-04T10:45:11 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC058_Northwest -->
+      <class name="com.app.scripts.allfacility.TC042_GreenbrierParma">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC042_GreenbrierParma@e720b71]" name="setUp" is-config="true" duration-ms="7625" started-at="2020-11-04T10:44:34 PST" finished-at="2020-11-04T10:44:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="greenbrierparma()[pri:0, instance:com.app.scripts.allfacility.TC042_GreenbrierParma@e720b71]" name="greenbrierparma" duration-ms="10938" started-at="2020-11-04T10:44:42 PST" finished-at="2020-11-04T10:44:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- greenbrierparma -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC042_GreenbrierParma@e720b71]" name="tearDowm" is-config="true" duration-ms="744" started-at="2020-11-04T10:44:53 PST" finished-at="2020-11-04T10:44:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC042_GreenbrierParma -->
+      <class name="com.app.scripts.allfacility.TC005_Anchorage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC005_Anchorage@491cc5c9]" name="setUp" is-config="true" duration-ms="7514" started-at="2020-11-04T10:45:11 PST" finished-at="2020-11-04T10:45:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="anchorage()[pri:0, instance:com.app.scripts.allfacility.TC005_Anchorage@491cc5c9]" name="anchorage" duration-ms="11666" started-at="2020-11-04T10:45:18 PST" finished-at="2020-11-04T10:45:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anchorage -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC005_Anchorage@491cc5c9]" name="tearDowm" is-config="true" duration-ms="784" started-at="2020-11-04T10:45:30 PST" finished-at="2020-11-04T10:45:31 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC005_Anchorage -->
+      <class name="com.app.scripts.allfacility.TC012_BridgePort">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC012_BridgePort@74ad1f1f]" name="setUp" is-config="true" duration-ms="7418" started-at="2020-11-04T10:45:31 PST" finished-at="2020-11-04T10:45:38 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bridgeport()[pri:0, instance:com.app.scripts.allfacility.TC012_BridgePort@74ad1f1f]" name="bridgeport" duration-ms="10137" started-at="2020-11-04T10:45:38 PST" finished-at="2020-11-04T10:45:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bridgeport -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC012_BridgePort@74ad1f1f]" name="tearDowm" is-config="true" duration-ms="780" started-at="2020-11-04T10:45:48 PST" finished-at="2020-11-04T10:45:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC012_BridgePort -->
+      <class name="com.app.scripts.allfacility.TC030_Evergreen">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC030_Evergreen@6a1aab78]" name="setUp" is-config="true" duration-ms="7294" started-at="2020-11-04T10:45:49 PST" finished-at="2020-11-04T10:45:56 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="evergreen()[pri:0, instance:com.app.scripts.allfacility.TC030_Evergreen@6a1aab78]" name="evergreen" duration-ms="8686" started-at="2020-11-04T10:45:56 PST" finished-at="2020-11-04T10:46:05 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evergreen -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC030_Evergreen@6a1aab78]" name="tearDowm" is-config="true" duration-ms="744" started-at="2020-11-04T10:46:05 PST" finished-at="2020-11-04T10:46:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC030_Evergreen -->
+      <class name="com.app.scripts.allfacility.TC022_Columbus">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC022_Columbus@462d5aee]" name="setUp" is-config="true" duration-ms="7366" started-at="2020-11-04T10:46:06 PST" finished-at="2020-11-04T10:46:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="columbus()[pri:0, instance:com.app.scripts.allfacility.TC022_Columbus@462d5aee]" name="columbus" duration-ms="10633" started-at="2020-11-04T10:46:13 PST" finished-at="2020-11-04T10:46:24 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- columbus -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC022_Columbus@462d5aee]" name="tearDowm" is-config="true" duration-ms="762" started-at="2020-11-04T10:46:24 PST" finished-at="2020-11-04T10:46:24 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC022_Columbus -->
+      <class name="com.app.scripts.allfacility.TC072_ThePines">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC072_ThePines@69b0fd6f]" name="setUp" is-config="true" duration-ms="7425" started-at="2020-11-04T10:46:24 PST" finished-at="2020-11-04T10:46:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="thepines()[pri:0, instance:com.app.scripts.allfacility.TC072_ThePines@69b0fd6f]" name="thepines" duration-ms="8758" started-at="2020-11-04T10:46:32 PST" finished-at="2020-11-04T10:46:41 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thepines -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC072_ThePines@69b0fd6f]" name="tearDowm" is-config="true" duration-ms="775" started-at="2020-11-04T10:46:41 PST" finished-at="2020-11-04T10:46:41 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC072_ThePines -->
+      <class name="com.app.scripts.allfacility.TC060_OxfordHealthcare">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC060_OxfordHealthcare@757942a1]" name="setUp" is-config="true" duration-ms="7216" started-at="2020-11-04T10:46:41 PST" finished-at="2020-11-04T10:46:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="oxfordhealthcare()[pri:0, instance:com.app.scripts.allfacility.TC060_OxfordHealthcare@757942a1]" name="oxfordhealthcare" duration-ms="8809" started-at="2020-11-04T10:46:49 PST" finished-at="2020-11-04T10:46:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oxfordhealthcare -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC060_OxfordHealthcare@757942a1]" name="tearDowm" is-config="true" duration-ms="775" started-at="2020-11-04T10:46:57 PST" finished-at="2020-11-04T10:46:58 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC060_OxfordHealthcare -->
+      <class name="com.app.scripts.allfacility.TC071_TheColony">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC071_TheColony@4a87761d]" name="setUp" is-config="true" duration-ms="7740" started-at="2020-11-04T10:46:58 PST" finished-at="2020-11-04T10:47:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="thecolony()[pri:0, instance:com.app.scripts.allfacility.TC071_TheColony@4a87761d]" name="thecolony" duration-ms="9067" started-at="2020-11-04T10:47:06 PST" finished-at="2020-11-04T10:47:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thecolony -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC071_TheColony@4a87761d]" name="tearDowm" is-config="true" duration-ms="793" started-at="2020-11-04T10:47:15 PST" finished-at="2020-11-04T10:47:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC071_TheColony -->
+      <class name="com.app.scripts.allfacility.TC059_Northwestern">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC059_Northwestern@66d1af89]" name="setUp" is-config="true" duration-ms="7417" started-at="2020-11-04T10:47:16 PST" finished-at="2020-11-04T10:47:23 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="northwestern()[pri:0, instance:com.app.scripts.allfacility.TC059_Northwestern@66d1af89]" name="northwestern" duration-ms="9500" started-at="2020-11-04T10:47:23 PST" finished-at="2020-11-04T10:47:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- northwestern -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC059_Northwestern@66d1af89]" name="tearDowm" is-config="true" duration-ms="781" started-at="2020-11-04T10:47:33 PST" finished-at="2020-11-04T10:47:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC059_Northwestern -->
+      <class name="com.app.scripts.allfacility.TC074_ValleyView">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC074_ValleyView@8646db9]" name="setUp" is-config="true" duration-ms="7383" started-at="2020-11-04T10:47:33 PST" finished-at="2020-11-04T10:47:41 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="valleyview()[pri:0, instance:com.app.scripts.allfacility.TC074_ValleyView@8646db9]" name="valleyview" duration-ms="8779" started-at="2020-11-04T10:47:41 PST" finished-at="2020-11-04T10:47:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valleyview -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC074_ValleyView@8646db9]" name="tearDowm" is-config="true" duration-ms="733" started-at="2020-11-04T10:47:50 PST" finished-at="2020-11-04T10:47:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC074_ValleyView -->
+      <class name="com.app.scripts.allfacility.TC078_Wildwood">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC078_Wildwood@37374a5e]" name="setUp" is-config="true" duration-ms="7485" started-at="2020-11-04T10:47:50 PST" finished-at="2020-11-04T10:47:58 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="wildwood()[pri:0, instance:com.app.scripts.allfacility.TC078_Wildwood@37374a5e]" name="wildwood" duration-ms="9608" started-at="2020-11-04T10:47:58 PST" finished-at="2020-11-04T10:48:07 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wildwood -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC078_Wildwood@37374a5e]" name="tearDowm" is-config="true" duration-ms="755" started-at="2020-11-04T10:48:07 PST" finished-at="2020-11-04T10:48:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC078_Wildwood -->
+      <class name="com.app.scripts.allfacility.TC044_Greenwood">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC044_Greenwood@4671e53b]" name="setUp" is-config="true" duration-ms="7849" started-at="2020-11-04T10:48:08 PST" finished-at="2020-11-04T10:48:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="greenwood()[pri:0, instance:com.app.scripts.allfacility.TC044_Greenwood@4671e53b]" name="greenwood" duration-ms="9726" started-at="2020-11-04T10:48:16 PST" finished-at="2020-11-04T10:48:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- greenwood -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC044_Greenwood@4671e53b]" name="tearDowm" is-config="true" duration-ms="774" started-at="2020-11-04T10:48:26 PST" finished-at="2020-11-04T10:48:27 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC044_Greenwood -->
+      <class name="com.app.scripts.allfacility.TC066_SalemWest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC066_SalemWest@2db7a79b]" name="setUp" is-config="true" duration-ms="7669" started-at="2020-11-04T10:48:27 PST" finished-at="2020-11-04T10:48:34 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="salemwest()[pri:0, instance:com.app.scripts.allfacility.TC066_SalemWest@2db7a79b]" name="salemwest" duration-ms="8975" started-at="2020-11-04T10:48:34 PST" finished-at="2020-11-04T10:48:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salemwest -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC066_SalemWest@2db7a79b]" name="tearDowm" is-config="true" duration-ms="759" started-at="2020-11-04T10:48:43 PST" finished-at="2020-11-04T10:48:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC066_SalemWest -->
+      <class name="com.app.scripts.allfacility.TC037_GrandeLake">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC037_GrandeLake@6950e31]" name="setUp" is-config="true" duration-ms="7372" started-at="2020-11-04T10:48:44 PST" finished-at="2020-11-04T10:48:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="grandelake()[pri:0, instance:com.app.scripts.allfacility.TC037_GrandeLake@6950e31]" name="grandelake" duration-ms="9062" started-at="2020-11-04T10:48:51 PST" finished-at="2020-11-04T10:49:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grandelake -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC037_GrandeLake@6950e31]" name="tearDowm" is-config="true" duration-ms="767" started-at="2020-11-04T10:49:00 PST" finished-at="2020-11-04T10:49:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC037_GrandeLake -->
+      <class name="com.app.scripts.allfacility.TC035_FtWashington">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC035_FtWashington@b7dd107]" name="setUp" is-config="true" duration-ms="7343" started-at="2020-11-04T10:49:01 PST" finished-at="2020-11-04T10:49:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ftwashington()[pri:0, instance:com.app.scripts.allfacility.TC035_FtWashington@b7dd107]" name="ftwashington" duration-ms="11336" started-at="2020-11-04T10:49:08 PST" finished-at="2020-11-04T10:49:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ftwashington -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC035_FtWashington@b7dd107]" name="tearDowm" is-config="true" duration-ms="745" started-at="2020-11-04T10:49:20 PST" finished-at="2020-11-04T10:49:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC035_FtWashington -->
+      <class name="com.app.scripts.allfacility.TC009_BelPre">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC009_BelPre@42eca56e]" name="setUp" is-config="true" duration-ms="7416" started-at="2020-11-04T10:49:21 PST" finished-at="2020-11-04T10:49:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="belpre()[pri:0, instance:com.app.scripts.allfacility.TC009_BelPre@42eca56e]" name="belpre" duration-ms="9148" started-at="2020-11-04T10:49:28 PST" finished-at="2020-11-04T10:49:37 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- belpre -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC009_BelPre@42eca56e]" name="tearDowm" is-config="true" duration-ms="821" started-at="2020-11-04T10:49:37 PST" finished-at="2020-11-04T10:49:38 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC009_BelPre -->
+      <class name="com.app.scripts.allfacility.TC006_Annandale">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC006_Annandale@7cbd213e]" name="setUp" is-config="true" duration-ms="7326" started-at="2020-11-04T10:49:56 PST" finished-at="2020-11-04T10:50:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="annadale()[pri:0, instance:com.app.scripts.allfacility.TC006_Annandale@7cbd213e]" name="annadale" duration-ms="9351" started-at="2020-11-04T10:50:03 PST" finished-at="2020-11-04T10:50:12 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annadale -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC006_Annandale@7cbd213e]" name="tearDowm" is-config="true" duration-ms="753" started-at="2020-11-04T10:50:12 PST" finished-at="2020-11-04T10:50:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC006_Annandale -->
+      <class name="com.app.scripts.allfacility.TC080_WoodGlen">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC080_WoodGlen@52f759d7]" name="setUp" is-config="true" duration-ms="7520" started-at="2020-11-04T10:49:38 PST" finished-at="2020-11-04T10:49:45 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="woodglen()[pri:0, instance:com.app.scripts.allfacility.TC080_WoodGlen@52f759d7]" name="woodglen" duration-ms="9394" started-at="2020-11-04T10:49:45 PST" finished-at="2020-11-04T10:49:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- woodglen -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC080_WoodGlen@52f759d7]" name="tearDowm" is-config="true" duration-ms="735" started-at="2020-11-04T10:49:55 PST" finished-at="2020-11-04T10:49:56 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC080_WoodGlen -->
+      <class name="com.app.scripts.allfacility.TC020_Clifton">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.scripts.allfacility.TC020_Clifton@192d3247]" name="setUp" is-config="true" duration-ms="7228" started-at="2020-11-04T10:50:13 PST" finished-at="2020-11-04T10:50:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="anchorage()[pri:0, instance:com.app.scripts.allfacility.TC020_Clifton@192d3247]" name="anchorage" duration-ms="9670" started-at="2020-11-04T10:50:20 PST" finished-at="2020-11-04T10:50:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anchorage -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:com.app.scripts.allfacility.TC020_Clifton@192d3247]" name="tearDowm" is-config="true" duration-ms="756" started-at="2020-11-04T10:50:30 PST" finished-at="2020-11-04T10:50:31 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- com.app.scripts.allfacility.TC020_Clifton -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

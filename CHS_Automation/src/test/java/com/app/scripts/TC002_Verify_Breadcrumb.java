@@ -11,8 +11,7 @@ public class TC002_Verify_Breadcrumb extends DriverTestCase {
 	
 	
 	String breadCrumbExpectedText= "Division: Heartland Region: Brave Hearts Facility: Austintown";
-	String divionExpectedText= "Heartland";
-	String RegionExpectedText= "Brave Hearts";
+	
 
 	@Test
 	public void verifyLabelAndBreadcrumbTest() throws InterruptedException {
@@ -41,12 +40,8 @@ public class TC002_Verify_Breadcrumb extends DriverTestCase {
 		  //verify that bread crumb is showing as expected
 		  Assert.assertTrue(breadcrumbInOneLIne.contains(breadCrumbExpectedText), "Breadcrumb should be display as expected");
 		
-			String divisionText= facilityProfilePage.getDivisionText();
-			String RegionText= facilityProfilePage.getRegionText();
 			
-			//verify that division and region text
-			Assert.assertEquals(divisionText, divionExpectedText);
-			Assert.assertEquals(RegionText, RegionExpectedText);
+			
 
 			
 		  //logout form the application
