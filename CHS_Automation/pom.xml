@@ -13,7 +13,7 @@
   <url>http://www.example.com</url>
 
  <properties>
-		<suiteXmlFile>TestNG_Files\All_Suite.xml</suiteXmlFile>
+		<suiteXmlFile>TestNG_AustintownFunctionality\All_Suite.xml</suiteXmlFile>
 		 </properties>
 
 	<dependencies>

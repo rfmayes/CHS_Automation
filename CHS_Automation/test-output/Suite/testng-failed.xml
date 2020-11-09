@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.app.scripts.TC001_VerifyDateRange">
+      <class name="com.app.scripts.TC00_VerifyTableData">
         <methods>
-          <include name="verifyCurrentDateAndISNPCheckBox"/>
           <include name="setUp"/>
           <include name="tearDowm"/>
+          <include name="verifytabledata"/>
         </methods>
-      </class> <!-- com.app.scripts.TC001_VerifyDateRange -->
+      </class> <!-- com.app.scripts.TC00_VerifyTableData -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

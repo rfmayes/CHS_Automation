@@ -13,7 +13,7 @@ import com.app.utils.DriverHelper;
 
 public class LoginPage extends DriverHelper {
 
-	@FindBy(id = "email")
+	@FindBy(id = "username")
 	private WebElement loginEmailAddress;
 
 	@FindBy(id = "password")

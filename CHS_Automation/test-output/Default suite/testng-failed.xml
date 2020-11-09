@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox">
+      <class name="com.app.scripts.physicianpage.TCP001_ProfileTitle">
         <methods>
-          <include name="verifyCurrentDateAndISNPCheckBox"/>
           <include name="setUp"/>
           <include name="tearDowm"/>
+          <include name="profiletitle"/>
         </methods>
-      </class> <!-- com.app.scripts.TC001_VerifyDateRangeAnd_INSPCheckbox -->
+      </class> <!-- com.app.scripts.physicianpage.TCP001_ProfileTitle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

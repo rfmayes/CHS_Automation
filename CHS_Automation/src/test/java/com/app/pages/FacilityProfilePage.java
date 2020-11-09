@@ -74,6 +74,12 @@ public class FacilityProfilePage extends DriverHelper {
 	@FindBy(xpath = "//span[@data-qa-testing='pd_lt_doc']")
 	private WebElement PDLTDOC;
 	
+	@FindBy(xpath = "(//div[contains(@class,'MuiGrid-direction-xs-column')])[1]")
+	private WebElement HighFrailty;
+	
+	@FindBy(xpath = "//h4[contains(text(),'Buccino')]")
+	private WebElement phys;
+	
 	@FindAll({@FindBy(xpath = "//table[contains(@class,'MuiTable-root')]/tbody/tr")})
 	private List<WebElement> Rows;
 
@@ -146,7 +152,12 @@ public class FacilityProfilePage extends DriverHelper {
 		public String  getDivisionText() {
 			String result= divisionText.getText();
 			return result;
-		}	
+		}
+		
+		public String  getPhysText() {
+			String result= phys.getText();
+			return result;
+		}
 		
 		public String  getRegionText() {
 			String result= regionText.getText();
@@ -198,8 +209,14 @@ public class FacilityProfilePage extends DriverHelper {
 			public String getPDLTDOC() {
 				String result= PDLTDOC.getText();
 				return result;
+				
+		}
+			public String getHighFrailty() {
+				String result= HighFrailty.getText();
+				return result;
 		
 		}
+			
 			public FacilityProfilePage getNumberofRows() {
 				System.out.println("Total rows: "+ Rows.size());
 				return PageFactory.initElements(getWebDriver(), FacilityProfilePage.class);

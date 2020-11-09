@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
 	    <class name="com.app.scripts.TC00_VerifyTableData"/>
-	   <class name="com.app.scripts.TC001_VerifyDateRange"/>
+	  <!--  <class name="com.app.scripts.TC001_VerifyDateRange"/>
         <class name="com.app.scripts.TC002_Verify_Breadcrumb"/>
        <class name="com.app.scripts.TC003_VerifyPatientCount"/>
        <class name="com.app.scripts.TC004_VerifyDaysofCare"/>
@@ -22,7 +22,7 @@
           <class name="com.app.scripts.TC016_Label"/>
          <class name="com.app.scripts.End_date_diff_month"/>
 	   <class name="com.app.scripts.Months_different"/>
-	   <class name="com.app.scripts.Months_same"/>
+	   <class name="com.app.scripts.Months_same"/> -->
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -16,6 +16,7 @@ import org.testng.annotations.BeforeClass;
 import com.app.pages.DashboardPage;
 import com.app.pages.FacilityProfilePage;
 import com.app.pages.LoginPage;
+import com.app.pages.PhysicianProfilePage;
 
 
 
@@ -26,6 +27,7 @@ public abstract class DriverTestCase {
 	public LoginPage loginPage;
 	public DashboardPage dashboardPage;
 	public FacilityProfilePage facilityProfilePage;
+	public PhysicianProfilePage physicianProfilePage;
 
 	private WebDriver driver;
 	String driverType;
@@ -73,6 +75,7 @@ public abstract class DriverTestCase {
 
 		loginPage=PageFactory.initElements(driver,LoginPage.class);
 		dashboardPage= PageFactory.initElements(driver,DashboardPage.class);
+		physicianProfilePage= PageFactory.initElements(driver,PhysicianProfilePage.class);
 		facilityProfilePage= PageFactory.initElements(driver,FacilityProfilePage.class);
 		
 	}

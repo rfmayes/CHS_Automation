@@ -29,6 +29,9 @@ public class DashboardPage  extends DriverHelper {
 	@FindBy(xpath = "//h6[contains(text(),'Facility Profile')]")
 	private WebElement facilityProfileLabel;
 	
+	@FindBy(xpath = "//table")
+	private WebElement PhysicianTable;
+	
 	
 
 	public DashboardPage(WebDriver webdriver) {
@@ -48,8 +51,14 @@ public class DashboardPage  extends DriverHelper {
 		    Thread.sleep(5000);
 		    driver.findElement(By.xpath("//span[contains(.,\'"+facilityName+"\')]")).click();
 		    WaitUntilWebElementIsVisible(facilityProfileLabel);
-		    
-		return PageFactory.initElements(getWebDriver(), DashboardPage.class);
+		    return PageFactory.initElements(getWebDriver(), DashboardPage.class);
 		}	
+		
+		public DashboardPage selectPhysician() throws InterruptedException {
+		    driver.findElement(By.xpath("(//table[contains(@class,'MuiTable-root')]/tbody/tr/td/p/a)[1]")).click();
+		    WaitUntilWebElementIsVisible(PhysicianTable);
+		    return PageFactory.initElements(getWebDriver(), DashboardPage.class);
+		}	
+		
 		
 }
